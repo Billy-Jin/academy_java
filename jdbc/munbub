@@ -1,0 +1,18 @@
+//PreparedStatement객체 이용
+public class InsertTest01 {
+
+		public static void main(String[] args) {
+		//각종 필요한 변수선언 - 예)conn, stmt, pstmt, rs, sql	
+		try {	
+			//1.드라이버 로딩
+			//2.Connection객체얻기
+			//3-1.실행객체-PreparedStatement,Statement객체
+			//3-2.쿼리문실행 - executeUpdate() insert,update,delete
+			//				  	excuteQuery() : select
+			//					excuteQuery() : ResultSet
+			//4. 추가작업
+			
+		}catch(Exception 객체) {/*~~~~~*/
+		}finally { //5. 사용한 객체는 반납: 객체.close();
+		}
+}
